@@ -70,7 +70,7 @@ angular.module('GalleryModule', ['AjaxService'])
     vm.singleHouseDataLoader = function(id){
       var singleHomeData = {};
       for (var key in data) {
-        console.log("FIXES ARE WORKING AS PLANNED !!!!!");
+        console.log("CHANGING THE CLIENT SERVER TO SEE IF ITS WORKING");
         var obj = data[key]
         if (data[key]._id == id) {
           // console.log('THIS IS THE MATCHING OBJECT', obj);
